@@ -112,7 +112,7 @@ xvalset.dim
 
 ## Building an ML Algorithm
 
-Now that we have clean training (**$`r trainset.dim[1]`$** rows) and cross-validation () **$`r xvalset.dim[1]`$** rows) sets, we are ready to tackle the ML problem by applying standard-practice classification algorithms.
+Now that we have clean training (**$`r trainset.dim[1]`$** rows) and cross-validation (**$`r xvalset.dim[1]`$** rows) sets, we are ready to tackle the ML problem by applying standard-practice classification algorithms.
 
 ### Classification Tree: modest to good success
 
@@ -193,4 +193,4 @@ By leaving out one of the users in the training set, the cross-validation accura
 
 ## Concluding Remarks
 
-advantages/disad of ML -- dont have/need intuition for underlying process
+This investigation demonstrates the remarkable effectiveness of the Random Forest algorithm for classification, and in doing so it hightlighs a main feature of some ML algorithms, namely, that they are something of a "black box" and do not easily lend themselves to intuitive interpretation.  This characteristic may be an advantage in cases like the one considered here: it is not necessary to understand the many variables that comprise the observed data before feeding them into the algorithm.  On the other hand, the model lacks the intuitive feel of a linear regression and is not easily visualized.  Its power lies in predictive ability, not mechanistic interpretation.
